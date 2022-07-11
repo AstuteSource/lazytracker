@@ -16,7 +16,6 @@ class LazyTracker:
         files_to_check = sorted(files_to_check)
 
         self.add_files(files_to_check, chunk_num_blocks)
-                
 
     def add_files(self, filepaths: List[str], chunk_num_blocks=128):
         for p in filepaths:

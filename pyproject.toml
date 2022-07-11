@@ -1,8 +1,14 @@
 [tool.poetry]
 name = "lazytracker"
 version = "0.1.0"
-description = ""
+description = "Caching of functions with respect to code changes and disk-file changes"
 authors = ["Michal Pogoda <michal.pogoda@bards.ai>"]
+license = "Apache 2.0"
+homepage = "https://github.com/mipo57/lazytracker"
+repository = "https://github.com/mipo57/lazytracker"
+include = [
+    "LICENSE",
+]
 
 [tool.poetry.dependencies]
 python = "^3.8"
